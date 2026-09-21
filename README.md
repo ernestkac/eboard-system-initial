@@ -1,11 +1,17 @@
-<div align="center">
+# ADMARC Limited - Executive Board Management System (eBoard)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Complete backend REST API and executive management platform for **ADMARC Limited**.
 
-  <h1>Built with AI Studio</h2>
+See detailed backend documentation and API reference in:
+- [backend/README.md](backend/README.md)
+- [backend/database/schema.sql](backend/database/schema.sql)
+- [backend/database/seeds.sql](backend/database/seeds.sql)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+### Quick Start
+```bash
+# Run backend business rules test suite
+npm test
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+# Start the development server
+npm run dev
+```

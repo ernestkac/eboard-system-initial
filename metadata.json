@@ -1,0 +1,6 @@
+{
+  "name": "ADMARC eBoard System",
+  "description": "Executive Board Management System REST API for ADMARC Limited, implementing governance, member directory, agendas, minutes, motions, voting, announcements, and document management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

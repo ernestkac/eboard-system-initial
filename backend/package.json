@@ -1,0 +1,29 @@
+{
+  "name": "admarc-eboard-backend",
+  "version": "1.0.0",
+  "description": "Executive Board Management System (eBoard) Backend REST API for ADMARC Limited",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "node tests/businessRules.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.12.0"
+  },
+  "keywords": [
+    "admarc",
+    "eboard",
+    "governance",
+    "express",
+    "mysql"
+  ],
+  "author": "ADMARC Limited ICT Department",
+  "license": "ISC"
+}
